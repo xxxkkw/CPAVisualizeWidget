@@ -1,8 +1,8 @@
 import Foundation
 
 public enum CPAVisualizeConfiguration {
-    public static let appGroupIdentifier = "group.com.xiongkaiwen.CPAVisualize"
-    public static let keychainService = "com.xiongkaiwen.CPAVisualize"
+    public static let appGroupIdentifier = "group.com.example.CPAVisualize"
+    public static let keychainService = "com.example.CPAVisualize"
     public static let snapshotFileName = "usage-snapshot.json"
     public static let widgetKind = "CPAUsageWidget"
 }

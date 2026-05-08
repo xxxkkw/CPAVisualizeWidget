@@ -24,7 +24,7 @@ scripts/              Local rebuild/install helper scripts
 
 - macOS with Xcode installed.
 - A running Usage Keeper service.
-- App Group entitlement configured as `group.com.xiongkaiwen.CPAVisualize`.
+- App Group entitlement configured for your own Apple Developer team, matching `CPAVisualizeConfiguration.appGroupIdentifier`.
 
 ## Usage
 

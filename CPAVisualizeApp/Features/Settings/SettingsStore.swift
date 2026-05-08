@@ -38,7 +38,7 @@ final class SettingsStore: ObservableObject {
         keychain: KeychainStore = KeychainStore(service: CPAVisualizeConfiguration.keychainService),
         snapshotStore: SharedSnapshotStore = SharedSnapshotStore()
     ) {
-        let storedBaseURL = defaults.string(forKey: DefaultsKey.baseURL) ?? "http://127.0.0.1:8080"
+        let storedBaseURL = defaults.string(forKey: DefaultsKey.baseURL) ?? ""
         let storedAuthEnabled = defaults.object(forKey: DefaultsKey.authEnabled) as? Bool ?? false
         let storedPassword = (try? keychain.loadString(for: KeychainKey.password)) ?? ""
         let storedSnapshot = try? snapshotStore.load()
