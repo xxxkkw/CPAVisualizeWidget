@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">CPA Visualize Widget icon</title>
+  <desc id="desc">A dark blue app icon with a white usage trend line and blue chart area.</desc>
+  <defs>
+    <linearGradient id="bg" x1="132" y1="80" x2="892" y2="944" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#061427"/>
+      <stop offset="0.48" stop-color="#0b2542"/>
+      <stop offset="1" stop-color="#020814"/>
+    </linearGradient>
+    <radialGradient id="blue-glow-left" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(206 730) rotate(-26) scale(550 340)">
+      <stop offset="0" stop-color="#4f9ae0" stop-opacity="0.58"/>
+      <stop offset="0.52" stop-color="#1d5a94" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#031326" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blue-glow-right" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(824 276) rotate(148) scale(520 330)">
+      <stop offset="0" stop-color="#5a9ce1" stop-opacity="0.64"/>
+      <stop offset="0.58" stop-color="#1a4779" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#031326" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="area" x1="206" y1="298" x2="802" y2="802" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5a9ce1" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#16365f" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#000814" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect x="64" y="64" width="896" height="896" rx="220" fill="url(#bg)"/>
+  <rect x="64" y="64" width="896" height="896" rx="220" fill="url(#blue-glow-left)"/>
+  <rect x="64" y="64" width="896" height="896" rx="220" fill="url(#blue-glow-right)"/>
+
+  <g opacity="0.58">
+    <circle cx="228" cy="206" r="4" fill="#d9ecff"/>
+    <circle cx="342" cy="154" r="3" fill="#d9ecff"/>
+    <circle cx="742" cy="184" r="3.5" fill="#d9ecff"/>
+    <circle cx="836" cy="394" r="2.5" fill="#d9ecff"/>
+    <circle cx="164" cy="440" r="2.5" fill="#d9ecff"/>
+  </g>
+
+  <g filter="url(#soft-shadow)">
+    <path d="M214 752V646C214 633 224 623 237 623H308C320 623 331 632 334 644L363 752H214Z" fill="url(#area)"/>
+    <path d="M363 752L427 478C431 462 445 451 461 451H508C523 451 536 461 541 475L599 638C604 653 620 662 635 656L702 628C726 618 752 635 752 661V752H363Z" fill="url(#area)"/>
+    <path d="M208 752H816" fill="none" stroke="#8bbff0" stroke-width="30" stroke-linecap="round" opacity="0.36"/>
+    <path d="M212 646C272 646 300 646 336 646C391 646 397 454 456 454C524 454 542 664 612 664C672 664 694 620 752 620C784 620 804 638 816 646" fill="none" stroke="#f7fbff" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M212 646C272 646 300 646 336 646C391 646 397 454 456 454C524 454 542 664 612 664C672 664 694 620 752 620C784 620 804 638 816 646" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <rect x="64" y="64" width="896" height="896" rx="220" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="4"/>
+</svg>
