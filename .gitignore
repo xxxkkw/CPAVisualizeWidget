@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+DerivedData/
+.cursor-build-signed/
+build/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# App/package artifacts
+dist/
+*.dmg
+*.app
+*.appex
+
+# Local tooling and scratch projects
+.claude/
+.playwright-mcp/
+LiquidGlassLab/
+open-webSearch/
+cpa-icon-preview.png
+
+# Secrets and local environment
+.env
+.env.*
+*.pem
+*.p12
+*.mobileprovision
+*.provisionprofile

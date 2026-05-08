@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000200 /* CPAVisualizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000100 /* CPAVisualizeApp.swift */; };
+		000000000000000000000201 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000101 /* SettingsStore.swift */; };
+		000000000000000000000202 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000102 /* SettingsView.swift */; };
+		000000000000000000000203 /* UsageKeeperClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000103 /* UsageKeeperClient.swift */; };
+		000000000000000000000204 /* SharedSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000104 /* SharedSnapshotStore.swift */; };
+		000000000000000000000205 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000105 /* KeychainStore.swift */; };
+		000000000000000000000206 /* UsageSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000010E /* UsageSnapshot.swift */; };
+		000000000000000000000207 /* CPAUsageWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000108 /* CPAUsageWidgetBundle.swift */; };
+		000000000000000000000208 /* CPAUsageWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000109 /* CPAUsageWidget.swift */; };
+		000000000000000000000209 /* UsageTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000010A /* UsageTimelineProvider.swift */; };
+		00000000000000000000020A /* UsageWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000010B /* UsageWidgetView.swift */; };
+		00000000000000000000020B /* SharedSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000104 /* SharedSnapshotStore.swift */; };
+		00000000000000000000020C /* UsageSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000010E /* UsageSnapshot.swift */; };
+		00000000000000000000020D /* CPAWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 000000000000000000000110 /* CPAWidgetExtension.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000000000000000000000500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000000000401;
+			remoteInfo = CPAWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		000000000000000000000302 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00000000000000000000020D /* CPAWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000100 /* CPAVisualizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPAVisualizeApp.swift; sourceTree = "<group>"; };
+		000000000000000000000101 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		000000000000000000000102 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		000000000000000000000103 /* UsageKeeperClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageKeeperClient.swift; sourceTree = "<group>"; };
+		000000000000000000000104 /* SharedSnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedSnapshotStore.swift; sourceTree = "<group>"; };
+		000000000000000000000105 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		000000000000000000000106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000000000000000000107 /* CPAVisualize.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CPAVisualize.entitlements; sourceTree = "<group>"; };
+		000000000000000000000108 /* CPAUsageWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPAUsageWidgetBundle.swift; sourceTree = "<group>"; };
+		000000000000000000000109 /* CPAUsageWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPAUsageWidget.swift; sourceTree = "<group>"; };
+		00000000000000000000010A /* UsageTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageTimelineProvider.swift; sourceTree = "<group>"; };
+		00000000000000000000010B /* UsageWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageWidgetView.swift; sourceTree = "<group>"; };
+		00000000000000000000010C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00000000000000000000010D /* CPAWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CPAWidgetExtension.entitlements; sourceTree = "<group>"; };
+		00000000000000000000010E /* UsageSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageSnapshot.swift; sourceTree = "<group>"; };
+		00000000000000000000010F /* CPAVisualize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPAVisualize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000110 /* CPAWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CPAWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000004 /* CPAVisualizeApp */,
+				00000000000000000000000B /* CPAWidgetExtension */,
+				00000000000000000000000F /* Shared */,
+				000000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000010F /* CPAVisualize.app */,
+				000000000000000000000110 /* CPAWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000000000000000000000004 /* CPAVisualizeApp */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000005 /* App */,
+				000000000000000000000006 /* Features */,
+				000000000000000000000008 /* Networking */,
+				000000000000000000000009 /* Storage */,
+				00000000000000000000000A /* Supporting */,
+			);
+			path = CPAVisualizeApp;
+			sourceTree = "<group>";
+		};
+		000000000000000000000005 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000100 /* CPAVisualizeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		000000000000000000000006 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000007 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		000000000000000000000007 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000101 /* SettingsStore.swift */,
+				000000000000000000000102 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		000000000000000000000008 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000103 /* UsageKeeperClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		000000000000000000000009 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000104 /* SharedSnapshotStore.swift */,
+				000000000000000000000105 /* KeychainStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		00000000000000000000000A /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000106 /* Info.plist */,
+				000000000000000000000107 /* CPAVisualize.entitlements */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		00000000000000000000000B /* CPAWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000108 /* CPAUsageWidgetBundle.swift */,
+				000000000000000000000109 /* CPAUsageWidget.swift */,
+				00000000000000000000000C /* Supporting */,
+				00000000000000000000000D /* Timeline */,
+				00000000000000000000000E /* Views */,
+			);
+			path = CPAWidgetExtension;
+			sourceTree = "<group>";
+		};
+		00000000000000000000000C /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000010C /* Info.plist */,
+				00000000000000000000010D /* CPAWidgetExtension.entitlements */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		00000000000000000000000D /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000010A /* UsageTimelineProvider.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		00000000000000000000000E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000010B /* UsageWidgetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00000000000000000000000F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000010 /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		000000000000000000000010 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000010E /* UsageSnapshot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000400 /* CPAVisualize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000601 /* Build configuration list for PBXNativeTarget "CPAVisualize" */;
+			buildPhases = (
+				000000000000000000000300 /* Sources */,
+				000000000000000000000301 /* Frameworks */,
+				000000000000000000000302 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000000000000000000000501 /* PBXTargetDependency */,
+			);
+			name = CPAVisualize;
+			productName = CPAVisualize;
+			productReference = 00000000000000000000010F /* CPAVisualize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000000000000000000000401 /* CPAWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000602 /* Build configuration list for PBXNativeTarget "CPAWidgetExtension" */;
+			buildPhases = (
+				000000000000000000000303 /* Sources */,
+				000000000000000000000304 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPAWidgetExtension;
+			productName = CPAWidgetExtension;
+			productReference = 000000000000000000000110 /* CPAWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					000000000000000000000400 = {
+						CreatedOnToolsVersion = 26.3;
+						ProvisioningStyle = Automatic;
+					};
+					000000000000000000000401 = {
+						CreatedOnToolsVersion = 26.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 000000000000000000000600 /* Build configuration list for PBXProject "CPAVisualize" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000002;
+			productRefGroup = 000000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000400 /* CPAVisualize */,
+				000000000000000000000401 /* CPAWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000200 /* CPAVisualizeApp.swift in Sources */,
+				000000000000000000000201 /* SettingsStore.swift in Sources */,
+				000000000000000000000202 /* SettingsView.swift in Sources */,
+				000000000000000000000203 /* UsageKeeperClient.swift in Sources */,
+				000000000000000000000204 /* SharedSnapshotStore.swift in Sources */,
+				000000000000000000000205 /* KeychainStore.swift in Sources */,
+				000000000000000000000206 /* UsageSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000207 /* CPAUsageWidgetBundle.swift in Sources */,
+				000000000000000000000208 /* CPAUsageWidget.swift in Sources */,
+				000000000000000000000209 /* UsageTimelineProvider.swift in Sources */,
+				00000000000000000000020A /* UsageWidgetView.swift in Sources */,
+				00000000000000000000020B /* SharedSnapshotStore.swift in Sources */,
+				00000000000000000000020C /* UsageSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000000000000000000000501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000000000401 /* CPAWidgetExtension */;
+			targetProxy = 000000000000000000000500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.1;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		000000000000000000000701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.1;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		000000000000000000000702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CPAVisualizeApp/Supporting/CPAVisualize.entitlements;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CPAVisualizeApp/Supporting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongkaiwen.CPAVisualize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		000000000000000000000703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CPAVisualizeApp/Supporting/CPAVisualize.entitlements;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CPAVisualizeApp/Supporting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongkaiwen.CPAVisualize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		000000000000000000000704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = CPAWidgetExtension/Supporting/CPAWidgetExtension.entitlements;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CPAWidgetExtension/Supporting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongkaiwen.CPAVisualize.CPAWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		000000000000000000000705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = CPAWidgetExtension/Supporting/CPAWidgetExtension.entitlements;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CPAWidgetExtension/Supporting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongkaiwen.CPAVisualize.CPAWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000600 /* Build configuration list for PBXProject "CPAVisualize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000700 /* Debug */,
+				000000000000000000000701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000601 /* Build configuration list for PBXNativeTarget "CPAVisualize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000702 /* Debug */,
+				000000000000000000000703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000602 /* Build configuration list for PBXNativeTarget "CPAWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000704 /* Debug */,
+				000000000000000000000705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}
