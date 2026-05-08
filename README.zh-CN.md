@@ -2,15 +2,11 @@
 
 中文 | [English](README.md)
 
-<p align="center">
-  <img src="Assets/app-icon.svg" width="96" alt="CPA Visualize Widget 图标">
-</p>
+CPA Visualize Widget 是一个 macOS SwiftUI 应用与 WidgetKit 桌面小组件，用于在桌面上查看 Usage Keeper 的用量统计。宿主应用负责保存 Usage Keeper 连接配置、定时同步快照，并通过 App Group 将数据共享给桌面小组件。
 
 <p align="center">
   <img src="img.png" alt="CPA Visualize Widget 预览" width="520">
 </p>
-
-CPA Visualize Widget 是一个 macOS SwiftUI 应用与 WidgetKit 桌面小组件，用于在桌面上查看 Usage Keeper 的用量统计。宿主应用负责保存 Usage Keeper 连接配置、定时同步快照，并通过 App Group 将数据共享给桌面小组件。
 
 ## 功能特性
 
@@ -77,7 +73,3 @@ scripts/              本地构建、安装和打包脚本
 ## 开源协议
 
 本项目使用 MIT License 开源，详见 [LICENSE](LICENSE)。
-
-## 说明
-
-生成的构建产物、本地工具目录、DMG 打包产物和无关临时项目已经通过 `.gitignore` 过滤，不属于仓库内容。
